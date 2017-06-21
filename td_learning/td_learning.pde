@@ -34,7 +34,6 @@ void setup(){
   //setup
   frameRate(30);
   size(600, 600);
-  println(random(1));
 
   //迷路の初期化
   for(int i = 0; i < LABYRINTH_HEIGHT; ++i){

@@ -136,11 +136,11 @@ void draw(){
       labyrinth[i][j].draw();
     }
   }
+  agent.draw();
   if(agent.is_reached()){
     agent.update_cells();
     agent = new Agent(START);
   }
-  agent.draw();
 }
 
 
